@@ -1,0 +1,69 @@
+/*The header will be fixed at the top of every page. It needs to transition from having a background color to being transparent. The logo will overhang the header by about 25% and be fixed to the top left of the page. The navigation bar will be fixed to the top right of the page.
+*/
+
+#App-header {
+    /* border: solid blue; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    background: linear-gradient(to bottom, #bfbece, #e9ebf2);
+    box-shadow: 0 4px 6px rgba(140, 132, 154, 0.934);
+    animation: shadow-pulse 2s ease-in-out infinite alternate;
+    z-index: 5;
+}
+
+@keyframes shadow-pulse {
+    0% {
+      box-shadow: 0 4px 6px rgba(140, 132, 154, 0.934);
+    }
+    100% {
+      box-shadow: 0 6px 12px rgba(140, 132, 154, 0.934);
+    }
+  }
+
+.container {
+    display: flex;
+    /* border: solid red;     */
+}
+
+#logoCont{
+    width: 33%;
+    display: flex;
+    
+}
+#logo {
+    position: fixed;
+    max-width: 25vmin;
+    top: -80px;
+    left: 60px;
+}
+
+@media (max-width: 768px) {
+    #logo {
+      max-width: 20vmin;
+      top: 5px;
+    }
+  }
+
+#headright {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+#titleCont{
+  width: 100%;
+}
+#title{
+  margin: 0 auto;
+}
+#navCont{
+    width: 66%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 4rem;
+    align-items: flex-end;
+}

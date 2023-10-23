@@ -1,0 +1,70 @@
+/*body.css is only responsible for the container of the body and its elemtents*/
+
+.Body{
+    max-width: 75%;
+    margin: 100px auto;
+    min-height: 100%;
+    padding: 30px 0;
+    z-index: -1;
+    /* border: solid red;   */
+}
+h2{
+    color: white;
+    padding-bottom: 80px;
+}
+
+.bodCont {
+    /* border: solid blue; */
+    height: auto;
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;  
+    animation: glow 2s ease-in forwards, tv-on 1.5s ease-in-out forwards;
+}
+ @keyframes glow {
+    0% {
+        box-shadow:rgba(246, 246, 246, 0)
+    }
+    100% {
+        box-shadow:0 0 20px rgba(178, 198, 232, 0.889)
+    }
+} 
+@keyframes tv-on {
+    0% {
+        width: 0;
+        height: 0;
+        opacity: 0;
+        transform-origin: center center;
+        transform: scaleY(0);
+        border-radius: 100px;
+        filter: blur(20px);
+        background-color: rgba(195, 196, 197, 0.1);
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    50%{
+        width: 400px;
+        height: 5px;
+        opacity: .5;
+        transform-origin: center center;
+        transform: scaleY(1);
+        border-radius: 100px;
+        filter: blur(20px);
+        background-color: rgba(195, 196, 197, 0.27);
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    100% {
+        width:80%;
+        height: 120px;
+        opacity: 1;
+        transform-origin: center center;
+        transform: scaleY(1);
+        background-color: rgba(195, 196, 197, 0.517);
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);    
+    }
+}

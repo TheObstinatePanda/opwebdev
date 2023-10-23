@@ -1,0 +1,31 @@
+#serv{
+    padding: 0 20px;
+    opacity: 0;
+    height: auto;
+    animation: fade-in 2.5s ease-in forwards;
+    z-index: 3;
+    /* border: solid red; */
+}
+
+#servList {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* border: solid blue; */
+    padding-inline-end: 40px;
+}
+
+#servList > li {
+    width: calc(33.33% - 1px);
+    border-right: 1px solid white;
+    padding-right: 10px;
+    padding-left: 10px; 
+}
+
+#servList > li:last-child {
+    border-right: none;
+}
+
+.servImg {
+    width: 80%;
+}
