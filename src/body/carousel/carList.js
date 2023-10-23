@@ -127,4 +127,4 @@ class carDLL {
   }
 }
 
-module.exports = carDLL;
+export default carDLL;
