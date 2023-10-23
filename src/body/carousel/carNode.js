@@ -32,4 +32,4 @@ class carNode {
     }
   }
   
-  module.exports = carNode;
+export default carNode;

@@ -1,5 +1,5 @@
 // doublyLinkedList.js
-const carNode = require('./carNode');
+import carNode from './carNode.js';
 
 class carDLL {
   constructor() {
