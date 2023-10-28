@@ -4,17 +4,17 @@ const servData = new carDLL();
 
 const elements = [
     {
-        image: require('../../assets/spinner.gif'),
+        image: require('../../assets/design.gif'),
         heading: "Design",
         text: "",
     },
     {
-        image: require('../../assets/spinner.gif'),
+        image: require('../../assets/Develop.png'),
         heading: "Develop",
         text: "",
     },
     {
-        image: require('../../assets/spinner.gif'),
+        image: require('../../assets/Deliver.png'),
         heading: "Deliver",
         text: "",
     },
