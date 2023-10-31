@@ -2,7 +2,16 @@
   text-align: center;
  
 }
-
+.head2 {
+  margin-block: 0;
+  color: white;
+  padding-bottom: 7.5rem;
+  padding-top: 2.5rem;
+}
+.head3{
+  margin-block: 0;
+  color: white;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

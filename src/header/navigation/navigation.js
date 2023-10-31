@@ -1,4 +1,5 @@
 import {React, useState} from "react";
+import { Link } from 'react-router-dom';
 import navData from "./navData";
 import './navigation.css';
 
@@ -24,9 +25,9 @@ function Navigation() {
                                 // when a users mouse enters or leaves the navItem, toggle the display state. 
                                 onMouseEnter={onHover}
                                 onMouseLeave={onHover}>
-                                    <a href={entry.url} className="link" target='_blank' rel='noreferrer no opener'>
+                                    <Link to={entry.url} className="link" rel='noreferrer no opener'>
                                         {entry.title}                     
-                                    </a>
+                                    </Link>
                                     <img src={entry.preview} className="navImg" alt="preview tile for project"/>
                                 </li>
                         </>

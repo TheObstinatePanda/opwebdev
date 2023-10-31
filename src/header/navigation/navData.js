@@ -5,13 +5,13 @@ const navData = new navDLL();
 
 const elements = [
     {
-        title: "CSS Stylecard",
-        url: "https://opstylecard.netlify.app/",
+        title: "Main",
+        url: "/",
         preview: "",
     },
     {
-        title: "Artist Portfolio",
-        url: "https://thepandasden.netlify.app/",
+        title: "Services",
+        url: "/services",
         preview: "",
     },
     {

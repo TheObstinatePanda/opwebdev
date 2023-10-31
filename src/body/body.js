@@ -5,12 +5,12 @@ import './body.css';
 function Body() {
   return (
     <div className="Body">
-      <h2>Weaving Digital Magic</h2>
-      <h2> This Site is still under construction, pardon the mess!</h2>
+      <h2 class="head2">Weaving Digital Magic</h2>
+      
       <div className="bodCont">
-        <AboutMe />
-        
+        <AboutMe />        
       </div>
+      {/* <h2 className="head2"> This Site is still under construction, pardon the mess!</h2> */}
       <div className="servCont">
         <Services />
       </div>

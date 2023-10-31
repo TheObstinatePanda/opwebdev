@@ -1,0 +1,75 @@
+.servBody{
+    max-width: 75%;
+    margin: 100px auto;
+    min-height: 100%;
+    padding: 30px 0;
+    z-index: -1;
+}
+
+#servHead {
+    padding-top: 3.5rem;
+    padding-bottom: 2.5rem;
+    text-align: left;
+    margin-left: 45px;
+}
+
+.servText {
+    margin-bottom: 40px;
+    position: relative;
+    max-width: 1000px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.servText::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -10%;
+    right: 10%;
+    left: 10%;
+    bottom: 10%;
+    width: 80%;
+    height: 2px;
+    background: linear-gradient(to right, transparent, rgba(203, 229, 245, 0.75), transparent);
+}
+.servText::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 110%;
+    right: 10%;
+    left: 10%;
+    bottom: 10%;
+    width: 80%;
+    height: 2px;
+    background: linear-gradient(to right, transparent, rgba(203, 229, 245, 0.75), transparent);
+}
+
+#coreServ {
+    margin-top: 60px;
+}
+
+#servCont {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px auto 20px;
+    width: 80%;
+    height: auto;
+}
+.servSub {
+    width: 40%;
+    background-color: rgba(240, 248, 255, 0.724);
+    border-radius: 15px;
+    border: solid 4.5px rgb(16, 15, 20);
+    box-shadow: 0 5px 5px 2.5px rgb(52, 46, 64);
+}
+.coreServ {
+    text-align: left;
+    padding-left: 7.5%;
+}
+.servList {
+    list-style: none;
+    margin: 5%;
+    padding-inline-start: 0;
+}
