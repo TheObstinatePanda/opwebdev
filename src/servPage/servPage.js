@@ -25,7 +25,7 @@ function ServPage() {
                     <ul className="servList">
                         <li>Logo Design</li>
                         <li>Branding Consultation</li>
-                        <li>Creation of Custom Graphical Icons</li>
+                        <li>Custom Graphical Icons</li>
                         <li>Digital-Illustration</li>
                         <li>Animation</li>
                     </ul>

@@ -6,17 +6,17 @@ const elements = [
     {
         image: require('../../assets/design.gif'),
         heading: "Design",
-        text: "",
+        text: "We will work with you to sketch a design perfect for your business.",
     },
     {
         image: require('../../assets/Develop.png'),
         heading: "Develop",
-        text: "",
+        text: "We will take those sketches and develop a beautiful and functional webpage from the ground up.",
     },
     {
         image: require('../../assets/Deliver.png'),
         heading: "Deliver",
-        text: "",
+        text: "We will deliver the site to you. If you need, we can also handle the hosting and domain acquisition for you.",
     },
 ]
 

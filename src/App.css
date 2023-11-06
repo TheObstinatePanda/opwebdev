@@ -1,6 +1,8 @@
 .App {
   text-align: center;
- 
+  background: linear-gradient(to bottom, rgb(27, 26, 42), rgb(5, 5, 10));
+  height: 100%;
+  width: 100%;
 }
 .head2 {
   margin-block: 0;
@@ -33,5 +35,28 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 576px) {
+  .head2 {
+    padding-bottom: 6.5rem;
+    padding-top: .25rem;
+  }
+}
+
+/* Medium devices (tablets) */
+@media (min-width: 577px) and (max-width: 768px) {
+  .head2 {
+    padding-bottom: 5.5rem;
+    padding-top: 1rem;
+  }
+}
+
+/* Large devices (desktops) */
+@media (min-width: 769px) and (max-width: 992px) {
+  .head2 {
+    padding-bottom: 5rem;
+    padding-top: 2.5rem;
   }
 }

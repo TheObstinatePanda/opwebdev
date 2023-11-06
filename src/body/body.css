@@ -15,6 +15,11 @@
     overflow: hidden;  
     animation: glow 2s ease-in forwards, tv-on 1.5s ease-in-out forwards;
 }
+
+.servCont{
+    margin: 0 auto;
+    border: solid blue;
+}
  @keyframes glow {
     0% {
         box-shadow:rgba(246, 246, 246, 0)
@@ -60,5 +65,35 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);    
+    }
+}
+
+
+  
+/* Medium devices (tablets) */
+@media (max-width: 768px) {
+    .Body{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .bodCont {
+        margin-top: 50px;
+        margin-bottom: -45px;
+        padding-bottom: 30px;
+    }
+    
+}
+  
+/* Large devices (desktops) */
+@media (min-width: 769px) and (max-width: 992px) {
+    .Body{
+        max-width: 90%;
+        margin: 100px auto;
+        min-height: 100%;
+        padding: 5px 0;
+        z-index: -1;
+    }
+    .bodCont {
+        margin-bottom: -25px;
     }
 }

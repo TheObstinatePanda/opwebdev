@@ -11,9 +11,9 @@ function Body() {
         <AboutMe />        
       </div>
       {/* <h2 className="head2"> This Site is still under construction, pardon the mess!</h2> */}
-      <div className="servCont">
-        <Services />
-      </div>
+      
+      <Services />
+      
       
     </div>
   );

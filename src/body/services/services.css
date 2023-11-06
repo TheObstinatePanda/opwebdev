@@ -1,35 +1,28 @@
-#serv{
-    padding: 0 20px;
-    opacity: 0;
-    height: auto;
-    animation: fade-in 2.5s ease-in forwards;
-    z-index: 3;
-    /* border: solid red; */
-}
-
 #servList {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-self: center;
-    /* border: solid blue; */
-    padding-inline-end: 40px;
+    height: auto;
+    animation: fade-in 2.5s ease-in forwards;
+    z-index: 3;
 }
 
-#servList > li {
+#servList > .servItem {
     width: calc(33.33% - 1px);
-    border-right: 1px solid white;
-    padding-right: 10px;
-    padding-left: 10px; 
+    padding-right: 2.5px;
+    padding-left: 2.5px; 
 }
 
-#servList > li:last-child {
-    border-right: none;
+#servList > .servItemrow-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%; 
 }
 
 .servImg {
     padding-top: 15px;
-    border-radius: 15%;
+    border-radius: 35px;
     width: 80%;
 }
 
@@ -37,3 +30,42 @@
     padding: 0;
     color: aliceblue
 }
+
+/* Small devices (phones) */
+@media (max-width: 576px) {
+    /* CSS rules for small devices here */
+  }
+  
+/* Medium devices (tablets) */
+@media (max-width: 768px) {
+
+    #servList {
+        display: flex;
+        width:100%;
+        margin: 0 auto;
+        padding: 5px;
+        flex-direction: column;
+    }
+    
+    #servList > .servItem {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        padding: 0;
+        height: auto;
+    }
+    
+    .servImg {
+        padding-top: 15px;
+        border-radius: 35px;
+        width: 50%;
+    }
+}
+  
+/* Large devices (desktops) */
+@media (min-width: 769px) and (max-width: 992px) {
+    #servList{
+        margin: 5px;
+    }
+}
+  

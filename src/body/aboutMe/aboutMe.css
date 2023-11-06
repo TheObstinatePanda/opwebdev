@@ -1,5 +1,5 @@
 #am {
-    padding: 0 20px;
+    padding: 0 25px;
     opacity: 0;
     height: auto;
     animation: fade-in 2.5s ease-in forwards;
@@ -30,4 +30,18 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+@media (max-width: 576px) {
+    /* CSS rules for small devices here */
+  }
+  
+/* Medium devices (tablets) */
+@media (min-width: 577px) and (max-width: 768px) {
+   
+}
+  
+/* Large devices (desktops) */
+@media (min-width: 769px) and (max-width: 992px) {
+  /* CSS rules for large devices here */
 }

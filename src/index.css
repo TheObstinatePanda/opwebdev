@@ -1,6 +1,6 @@
 html{
-  background: linear-gradient(to bottom, rgb(27, 26, 42), rgb(5, 5, 10));
-  height: 100%;
+  overflow-x: hidden;
+  background-color: rgb(5, 4, 9);
 }
 
 body {
@@ -15,4 +15,18 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@media (max-width: 576px) {
+  /* CSS rules for small devices here */
+}
+
+/* Medium devices (tablets) */
+@media (min-width: 577px) and (max-width: 768px) {
+/* CSS rules for medium devices here */
+}
+
+/* Large devices (desktops) */
+@media (min-width: 769px) and (max-width: 992px) {
+/* CSS rules for large devices here */
 }
