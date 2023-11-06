@@ -68,18 +68,34 @@
     }
 }
 
+/* Small devices (phones) */
+@media (max-width: 576px) {
+    .Body{
+        max-width: 90%;
+        margin: 100px auto;
+        min-height: 100%;
+        padding: 5px 0;
+        z-index: -1;
+    }
+    .bodCont {
+        width: 300px;
+        margin-top: 60px;
+        padding-bottom: 50px;
 
+    }
+    
+}
   
 /* Medium devices (tablets) */
-@media (max-width: 768px) {
+@media (min-width: 577px) and (max-width: 768px) {
     .Body{
         width: 100%;
         margin: 0 auto;
     }
     .bodCont {
+        width: 300px;
         margin-top: 50px;
-        margin-bottom: -45px;
-        padding-bottom: 30px;
+        padding-bottom: 20px;
     }
     
 }

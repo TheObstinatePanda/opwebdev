@@ -33,7 +33,9 @@ a:hover {
 }
 
 @media (max-width: 576px) {
-    /* CSS rules for small devices here */
+    #am {
+        padding: 0;
+    }
   }
   
 /* Medium devices (tablets) */
