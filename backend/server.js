@@ -7,14 +7,13 @@ const dotenv = require('dotenv');
 // Load environment variables
 dotenv.config({ path: '../.env' });
 
-
 const app = express();
 const port = process.env.PORT || 5000;
 
 // Middleware
 app.use(bodyParser.json());
 app.use(cors({
-    origin: ['https://www.opwebdev.com', 'https://opwebdev.com'],
+    origin: ['https://www.opwebdev.com'],
     methods: ['GET', 'POST', 'OPTIONS'],
     allowedHeaders: ['Content-Type'],
     credentials: true,
@@ -54,5 +53,5 @@ app.post('/api/contact', (req, res) => {
 });
 
 app.listen(port, () => {
-    console.log('Server is running on port ${port}');
+    console.log(`Server is running on port ${port}`);
 });
