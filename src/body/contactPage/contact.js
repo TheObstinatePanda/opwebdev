@@ -14,6 +14,7 @@ function Contact() {
             ...formData,
             [name]: value,
         });
+        setConfirmationMessage('Thank you for you request, we will get back to you soon.');
     };
 
     const [confirmationMessage, setConfirmationMessage] = useState('');
@@ -74,6 +75,7 @@ function Contact() {
                         <textarea id="message" name="message" value={formData.message} onChange={handleChange} required></textarea>
                         <button type="submit" id="contSubmit">Submit</button>
                     </form>
+                     {confirmationMessage && <p>{confirmationMessage}</p>}
                 </div>
             </div>
         </div>
