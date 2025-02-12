@@ -20,7 +20,7 @@ app.use(cors({
 }));
 
 // Options for preflight requests
-app.options('/api/contact', cors());
+// app.options('/api/contact', cors());
 
 // Nodemailer
 const transporter = nodemailer.createTransport({
