@@ -17,9 +17,11 @@ app.use(cors({
     origin: ['https://www.opwebdev.com', 'https://opwebdev.com'],
     methods: ['GET', 'POST', 'OPTIONS'],
     allowedHeaders: ['Content-Type'],
+    credentials: true,
 }));
 
-app.options('*', cors());
+// Options for preflight requests
+app.options('/api/contact', cors());
 
 // Nodemailer
 const transporter = nodemailer.createTransport({
