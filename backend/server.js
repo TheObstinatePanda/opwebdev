@@ -38,7 +38,7 @@ app.post('/api/contact', (req, res) => {
     const mailOptions = {
         from: process.env.EMAIL_USER,
         to: process.env.EMAIL_USER,
-        replyTO: email,
+        replyTo: email,
         subject: `New message from ${name} at ${email}`,
         text: message,
     };
