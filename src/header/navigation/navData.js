@@ -7,7 +7,7 @@ const elements = [
     {
         title: "Main",
         url: "/",
-        preview: "Front Page",
+        preview: "",
     },
     {
         title: "Services",

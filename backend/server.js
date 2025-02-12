@@ -14,9 +14,9 @@ const port = process.env.PORT || 5000;
 // Middleware
 app.use(bodyParser.json());
 app.use(cors({
-    origin: 'https://www.opwebdev.com',
-    methods: 'POST',
-    allowedHeaders: 'Content-Type',
+    origin: ['https://www.opwebdev.com', 'https://www.opwebdev.com/api/contact'],
+    methods: ['GET', 'POST', 'OPTIONS'],
+    allowedHeaders: ['Content-Type'],
 }));
 
 console.log('Api key: ',process.env.SENDGRID_API_KEY)
