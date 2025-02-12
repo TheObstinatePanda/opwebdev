@@ -1,9 +1,8 @@
 #am {
+    display: flex;
     padding: 0 25px;
     opacity: 0;
-    height: auto;
     animation: fade-in 2.5s ease-in forwards;
-    z-index: 3;
 }
 
 @keyframes fade-in {
@@ -19,8 +18,12 @@
 }
 
 p {
-    font-size: 16px;
+    font-size: 1rem;
     color:rgba(225, 241, 251, .75);
+}
+
+#am p {
+    font-size: 1.5rem;
 }
 
 a {
@@ -32,11 +35,10 @@ a:hover {
     text-decoration: underline;
 }
 
+/* Small devices (smart phones) */
 @media (max-width: 576px) {
-    #am {
-        padding: 0;
-    }
-  }
+
+}
   
 /* Medium devices (tablets) */
 @media (min-width: 577px) and (max-width: 768px) {

@@ -8,8 +8,8 @@ class carDLL {
     this.current = null;
   }
 
-  addToHead(image, heading, text) {
-    const newHead = new carNode(image, heading, text);
+  addToHead(image, heading, text, link) {
+    const newHead = new carNode(image, heading, text, link);
     const currentHead = this.head;
 
     if (currentHead) {
@@ -22,8 +22,8 @@ class carDLL {
     }
   }
 
-  addToTail(image, heading, text) {
-    const newTail = new carNode(image, heading, text);
+  addToTail(image, heading, text, link) {
+    const newTail = new carNode(image, heading, text, link);
     const currentTail = this.tail;
 
     if(currentTail) {

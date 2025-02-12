@@ -1,9 +1,9 @@
 #servList {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-self: center;
     height: auto;
+    margin-block: 0;
+    padding-inline: 0;
     animation: fade-in 2.5s ease-in forwards;
     z-index: 3;
 }
@@ -34,8 +34,8 @@
 /* Small devices (phones) */
 @media (max-width: 576px) {
     #servList {
-        padding: 0;
-        margin-top: -75px;
+        padding: 10px;
+        margin: -75px 40px 10px;
         flex-direction: column;
     }
     #servList > .servItem {
@@ -50,6 +50,7 @@
         border-radius: 35px;
         width: 50%;
     }
+
   }
   
 /* Medium devices (tablets) */

@@ -7,11 +7,21 @@ const elements = [
     {
         title: "Main",
         url: "/",
-        preview: "",
+        preview: "Front Page",
     },
     {
         title: "Services",
         url: "/services",
+        preview: "",
+    },
+    {
+        title: "Portfolio",
+        url: "/portfolio",
+        preview: "",
+    },
+    {
+        title: "Contact",
+        url: "/contact",
         preview: "",
     },
     {

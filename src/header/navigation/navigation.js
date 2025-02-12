@@ -13,13 +13,12 @@ function Navigation() {
     function onHover () {setDisplay(!display)};
     //return the navigation bar.
     return(
-        <>
-        <nav>
+        <nav id="navigation">
             <ul id="navList">
                 {/* map through the array and display a nav element for each entry.  */}
                 {navArr.map((entry, index) => {
                     return(
-                        <>
+                        
                             <li key={index}
                                 className="navItem"
                                 // when a users mouse enters or leaves the navItem, toggle the display state. 
@@ -30,12 +29,11 @@ function Navigation() {
                                     </Link>
                                     <img src={entry.preview} className="navImg" alt="preview tile for project"/>
                                 </li>
-                        </>
+                        
                     )
                 })}
             </ul>
         </nav>
-        </>
         
     )
 }

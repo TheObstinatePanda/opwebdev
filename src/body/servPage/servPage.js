@@ -3,7 +3,7 @@ import './servPage.css';
 function ServPage() {
     return (
         <div className="servBody">
-            <h2 class="head2" id="servHead">What can we build for you?</h2>
+            <h2 className="head2" id="servHead">What can we build for you?</h2>
             <div className="servText">
                 <p>Here at OP Web Development, we pride ourselves on creating high quality, custom, dynamic webpages built from the ground up. We also offer a variety of graphic design services, including logo design, branding consultation, creation of custom graphical icons, digital-illustration, and animation in-line with your brand.</p>
                 <p>Our goal is to help you bring your vision to life. We will work with you to create a stunning, functional, and user-friendly website that will help you stand out from the crowd. </p>

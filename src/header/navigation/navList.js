@@ -57,6 +57,7 @@ class navDLL {
         /*return the title of the removed head. */
         return removedHead.title;
     }
+    
     /*removes the tail of the list.*/
     removeTail() {
         const removedTail = this.tail;

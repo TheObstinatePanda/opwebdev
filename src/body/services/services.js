@@ -24,7 +24,7 @@ function Services() {
     }, []);
 
     return(
-        <div>
+        <div className="services">
             <ul id="servList">
                 {servArr.map((entry, index) => {
                     return(

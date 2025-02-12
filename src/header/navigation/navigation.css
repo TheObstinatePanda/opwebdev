@@ -1,7 +1,15 @@
+#navigation {
+    padding: 0;
+    margin: 0;
+}
+
 #navList {
     max-width: 1000px;
     display: flex;
     justify-items: flex-end;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
 }
 
 .navItem {
@@ -33,6 +41,6 @@
   @media (min-width: 769px) and (max-width: 992px) {
     /* CSS rules for large devices here */
     #navList {
-        margin: 5px;
+        margin: 0;
     }
   }

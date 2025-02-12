@@ -3,7 +3,7 @@ import './aboutMe.css'
 function AboutMe() {
     return (
         <div id="am">
-            <p>Hello and welcome to my website! I am <a href="https://www.linkedin.com/in/jason-newman-982441179/" target="_blank" rel='noreferrer'>Jason Newman</a>, a freelance web developer dedicated to enhancing your online presence. I specialize in creating professional, custom designs tailored to your unique requirements and style.</p>
+            <p>Welcome to OPwebDev, where we specialize in crafting exceptional online experiences.  Whether you're just starting to think about your professional website, or or want to enhance your existing site, we're your trusted partners with a wealth of  development expertise and dynamic designs. Our mission is to empower local businesses with a definitive online presence and distinct brand identity. Let us develop your vision into a compelling digital reality.</p>
         </div>
     )
 }

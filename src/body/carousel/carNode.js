@@ -1,9 +1,10 @@
 // Establish the carNode.
 class carNode {
-    constructor(image, heading, text) {
+    constructor(image, heading, text, link) {
         this.image = image;
         this.heading = heading;
         this.text = text;
+        this.link = link;
         this.prev = null;
         this.next = null;
     }

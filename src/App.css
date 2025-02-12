@@ -7,8 +7,8 @@
 .head2 {
   margin-block: 0;
   color: white;
-  padding-bottom: 7.5rem;
-  padding-top: 2.5rem;
+  padding-bottom: 5.5vh;
+  padding-top: 2.5vh;
 }
 .head3{
   margin-block: 0;
@@ -45,7 +45,7 @@
   }
 }
 
-/* Medium devices (tablets) */
+/* Large mobile devices (smartphones) */
 @media (min-width: 577px) and (max-width: 768px) {
   .head2 {
     padding-bottom: 5.5rem;
@@ -53,10 +53,13 @@
   }
 }
 
-/* Large devices (desktops) */
+/* Medium devices (ipad/laptop/narrow windowed) */
 @media (min-width: 769px) and (max-width: 992px) {
   .head2 {
-    padding-bottom: 5rem;
+    padding-bottom: 0;
     padding-top: 2.5rem;
+  }
+  .services {
+    margin: 60px 0;
   }
 }

@@ -1,0 +1,74 @@
+.contactCont {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 100px 100px;
+    padding: 30px 0;
+}
+
+#contactHead {
+
+}
+
+#contactBody {
+    display: flex;
+    flex-direction: row;
+}
+
+.contactText {
+
+}
+
+#contactFormCont {
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    width: 40vw;
+    align-items: center;
+    margin: 10px 0;
+}
+
+#phoneEmail ul {
+    color: white;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+#phoneEmail li {
+    margin: 10px;
+}
+
+#contactForm {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.formInput {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+
+#name {
+    width: 10vw;
+    align-self: end;
+}
+
+#email {
+    width: 10vw;
+    align-self: end;
+}
+
+#message {
+    height: 20vh;
+    width: 30vw;
+}
+
+#contSubmit {
+    width: 10vw;
+    align-self: end;
+    margin: 10px 0;
+}
