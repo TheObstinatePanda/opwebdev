@@ -14,12 +14,12 @@ const port = process.env.PORT || 5000;
 // Middleware
 app.use(bodyParser.json());
 app.use(cors({
-    origin: ['https://www.opwebdev.com', 'https://www.opwebdev.com/api/contact'],
+    origin: ['https://www.opwebdev.com', 'https://opwebdev.com'],
     methods: ['GET', 'POST', 'OPTIONS'],
     allowedHeaders: ['Content-Type'],
 }));
 
-console.log('Api key: ',process.env.SENDGRID_API_KEY)
+app.options('*', cors());
 
 // Nodemailer
 const transporter = nodemailer.createTransport({
