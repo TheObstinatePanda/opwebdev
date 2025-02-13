@@ -66,31 +66,36 @@
     justify-content: center;
 }
 
-@media (max-width: 494px) {
+/* Legacy Devices small smartphones */
+@media (max-width:494px) {
   #App-header {
     flex-direction: column;
     height: 20vh;
   }
-}
-
-/* Legacy Devices small smartphones */
-@media (max-width:495px) {
-  #App-header {
-    height: 62.5px;
-  }
-  #logo {
-    padding-top: 20px;
-    width: 80px;
-  }
-  #title {    
-    margin-top: 10px;
-    font-size: 1.2rem;
-  } 
-  #navCont{
+  #logoCont{
     width: 100%;
     display: flex;
     justify-content: center;
+  }
+  #logo {
+    padding-top: 20px;
+    width: 100px;
+  }
+  #title {    
+    margin-top: 20px;
+    font-size: 1.2rem;
+  } 
+  #navCont{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+  }
+  #navList {
     padding-inline-start: 0;
+  }
+  .navItem {
+    font-size: 1rem;
   }
 }
 
@@ -150,6 +155,6 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    padding-inline-start: 120px;
+    padding-inline-start: 20px;
   }
 }

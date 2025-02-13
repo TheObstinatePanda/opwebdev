@@ -69,8 +69,27 @@
     }
 }
 
+/* Legacy Decices (Small Smartphones) */
+@media (max-width: 494px) {
+    .Body{
+        max-width: 100%;
+        margin: 100px auto;
+        min-height: 100%;
+        padding: 5px 0;
+        z-index: -1;
+    }
+    .bodCont {
+        width: 90%;
+        margin-top: 10px;
+        padding: 5px;
+        margin-bottom: 40px;
+    }
+    #am p{
+        font-size: 1.1rem;
+    }
+}
 /* Small devices (phones) */
-@media (max-width: 576px) {
+@media (min-width: 495px) and (max-width: 576px) {
     .Body{
         max-width: 100%;
         margin: 100px auto;

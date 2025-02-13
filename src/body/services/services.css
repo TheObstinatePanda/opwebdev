@@ -31,8 +31,43 @@
     color: aliceblue
 }
 
+/* Legacy Devices (Small Smartphones) */
+@media (max-width: 494px) {
+    #servList {
+        padding: 0px;
+        align-items: center;
+        /* margin: -75px 40px 10px; */
+        flex-direction: column;
+    }
+    #servList > .servItem {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 80%;
+        padding: 0;
+        height: auto;
+    }
+    #servList > .servItemrow-reverse {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        width: 80%;
+        padding: 0;
+        height: auto;
+    }
+    #servCard {
+        width: 80%;
+    }
+    .servImg {
+        padding-top: 15px;
+        border-radius: 35px;
+        max-width: 20%;
+        height: auto;
+    }
+}
+
 /* Small devices (phones) */
-@media (max-width: 576px) {
+@media (min-width: 495px) and (max-width: 576px) {
     #servList {
         padding: 10px;
         margin: -75px 40px 10px;
