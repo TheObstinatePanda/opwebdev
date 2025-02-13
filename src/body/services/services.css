@@ -33,6 +33,7 @@
 
 /* Legacy Devices (Small Smartphones) */
 @media (max-width: 494px) {
+    
     #servList {
         padding: 0px;
         align-items: center;
