@@ -21,6 +21,8 @@ function Contact() {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
+        console.log('Submitting form with data: ', formData);
+        console.log('API URL :', process.env.REACT_APP_API_URL);
         try {
             const res = await fetch(process.env.REACT_APP_API_URL, {
                 method: 'POST',
