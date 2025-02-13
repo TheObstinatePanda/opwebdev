@@ -70,7 +70,7 @@
 @media (max-width:494px) {
   #App-header {
     flex-direction: column;
-    height: 22.5vh;
+    height: 23.5vh;
   }
   #logoCont{
     width: 100%;
