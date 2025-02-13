@@ -13,7 +13,7 @@ const port = process.env.PORT || 5000;
 // Middleware
 app.use(bodyParser.json());
 app.use(cors({
-    origin: ['https://opwebdev.com', 'http://localhost:3000'],
+    origin: ['https://www.opwebdev.com', 'http://localhost:3000'],
     methods: ['GET', 'POST', 'OPTIONS'],
     allowedHeaders: ['Content-Type'],
     // credentials: true,
