@@ -1,9 +1,7 @@
 [[redirects]]
- from = "/*"
- to = "https://www.opwebdev.com/:splat"
- status = 301
- force = true
- conditions = { Host = "opwebdev.com" }
+  from = "/*"
+  to = "/index.html"
+  status = 200
 
 [[redirects]]
   from = "/api/*"
